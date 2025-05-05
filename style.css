@@ -1,0 +1,36 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.linha, .mao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px auto;
+}
+
+.peca {
+  background-color: #fff;
+  color: #000;
+  border-radius: 6px;
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.peca:hover {
+  background-color: #eee;
+}
+
+.inativa {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
